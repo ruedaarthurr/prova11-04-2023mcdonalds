@@ -1,0 +1,134 @@
+* {
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(228, 8, 37, 0.582);
+}
+
+nav {
+    padding: 1vh 0;
+    background-color:yellow;
+    text-align: center;
+    word-spacing: 0.3vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0.836);
+    margin: 0
+  }
+
+  footer {
+    padding: 1vh 0;
+    background-color:yellow;
+    margin-top: 0vh;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: yellow;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    font-size: 5vh;
+}
+
+.capa {
+height: 50vh;
+width: 100%;
+margin-bottom: 2vh;
+margin-top: 0vh;
+background-image: url("https://nilopolissquare.com.br/wp-content/uploads/2019/05/lojas-850x450-NOVO-16.jpg");
+background-size: cover;
+background-position: center;
+}
+
+h3 {
+    color:black;
+    margin-top: 2vh;
+    font-size: 3.5vh;
+}
+
+main {
+    display: flex;
+    margin: 0;
+}
+
+.left,
+.right {
+    width: 100%;
+}
+
+.left {
+    width: 70%;
+    height: 20vh;
+    padding: 4vh 10vh 0 20vh;
+    margin-left: 7vh;
+    margin-top: 8vh;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    grid-gap: 0.5vh;
+}
+
+.hamb2 {
+    width: 15vh;
+    background-color:brown;
+    margin-top: 0.5vh;
+}
+
+.hamb3 {
+    width: 15vh;
+    background-color:brown;
+    margin-top: 0.5vh;
+}
+
+.hamb4 {
+    width: 15vh;
+    background-color:brown;
+    margin-top: 0.5vh;
+}
+
+.hamb5 {
+    width: 15vh;
+    background-color:brown;
+    margin-top: 0.5vh;
+}
+
+.hamb6 {
+    width: 15vh;
+    background-color:brown;
+    margin-top: 0.5vh;
+}
+
+.hamb7 {
+    width: 15vh;
+    background-color:brown;
+    margin-top: 0.5vh;
+    
+}
+
+
+
+p {
+    color:rgb(12, 8, 8);
+    margin-bottom: 5vh;
+    text-decoration:dotted ;
+    font-size: 3vh;
+}
+
+.foot {
+    color: black;
+    font-size: 1.8vh;
+    font-weight: bold;
+}
